@@ -1,8 +1,8 @@
 function Layout({ children }) {
   return (
-    <>
-      {children}
-    </>
+    <div className="bg-gray-100 w-screen h-screen">
+      <div className="container p-4">{children}</div>
+    </div>
   )
 }
 
